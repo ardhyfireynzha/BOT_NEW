@@ -132,15 +132,15 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .on command, check if the bot is running.  """
     await alive.edit("`"
-                     "Hello all, this is BOT account....\n"
-                     f"----------------------------------------\n"
-                     f"•  𝕺𝖜𝖓𝖊𝖗         • {DEFAULTUSER}\n"
-                     f"•  𝖕𝖄𝖙𝖍𝖔𝖓'          • {python_version()}\n"
-                     f"•  𝕿𝖊𝖑𝖊𝖙𝖍𝖔𝖓             • {version.__version__}\n"
-                     f"----------------------------------------\n"
-                     f"• Berhentilah sebelum terluka lebih dalam\n"
-                     f"• karena itu lebih baik\n"
-                     f"----------------------------------------\n"
+                     "Hello all, this is BOT account 🔑....\n"
+                     f"=======================================\n"
+                     f"•  𝕺𝖜𝖓𝖊𝖗  ••••••••• {DEFAULTUSER}\n"
+                     f"•  𝖕𝖄𝖙𝖍𝖔𝖓'  •••••••••• {python_version()}\n"
+                     f"•  𝕿𝖊𝖑𝖊𝖙𝖍𝖔𝖓    •••••••••• {version.__version__}\n"
+                     f"=======================================\n"
+                     f"• allahummasalli ala sayyidina muhammad\n"
+                     f"• waala ali sayyidina muhammad\n"
+                     f"=======================================\n"
                      "`")
 
 

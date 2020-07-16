@@ -19,8 +19,8 @@ from userbot.events import register
 UNAPPROVED_MSG = (
     "`Maaf,ini adalah pesan otomatis BOT account.\n\n`"
     "`Silahkan menunggu persetujuan personal chat.`"
-    "`Tolong jangan spam chat sampai chat disetujui.\n\n`"
-    "`Jika tetap spam chat, akan kena auto block by BOT!`")
+    "`untuk daftar vTube atau king poin --->>> \n\n`"
+    "`silahkan wa 082296349272 untuk fast respont ya..!`")
 # =================================================================
 
 

@@ -218,7 +218,7 @@ async def ban(bon):
         return
 
     # Announce that we're going to whack the pest
-    await bon.edit("`Whacking the pest!`")
+    await bon.edit("`Melihat Target..!`")
 
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id,
@@ -232,14 +232,14 @@ async def ban(bon):
             await reply.delete()
     except BadRequestError:
         return await bon.edit(
-            "`Orang tolol, pantas di banned permanent`")
+            "`pantas di banned permanent`")
     # Delete message and then tell that the command
     # is done gracefully
     # Shout out the ID, so that fedadmins can fban later
     if reason:
-        await bon.edit(f"`{str(user.id)}` telah di tendang !!\nAasannya: {reason}")
+        await bon.edit(f"`{str(user.id)}` ditendang keluar..!!\nalasannya: {reason}")
     else:
-        await bon.edit(f"`{str(user.id)}` telah di tendang !!")
+        await bon.edit(f"`{str(user.id)}` Ditendang keluar !!")
     # Announce to the logging group if we have banned the person
     # successfully!
     if BOTLOG:
@@ -557,7 +557,7 @@ async def kick(usr):
     if not user:
         return await usr.edit("`Couldn't fetch user.`")
 
-    await usr.edit("`Kicking...`")
+    await usr.edit("`Menendang Target...`")
 
     try:
         await usr.client.kick_participant(usr.chat_id, user.id)

@@ -19,7 +19,7 @@ from userbot.events import register
 UNAPPROVED_MSG = (
     "`Maaf,ini adalah pesan otomatis BOT account.\n\n`"
     "`Silahkan menunggu persetujuan personal chat.`"
-    "`untuk daftar vTube atau king poin --->>> \n\n`"
+    "`untuk daftar vTube dan gabung team masukkan referal code 666111 •• \n\n`"
     "`silahkan wa 082296349272 untuk fast respont ya..!`")
 # =================================================================
 
